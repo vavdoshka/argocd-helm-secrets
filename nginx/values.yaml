@@ -11,7 +11,7 @@ image:
   tag: ""
 
 imagePullSecrets: []
-nameOverride: "ref+awsssm://argocd/secret-nginx-name"
+nameOverride: "secrets://ref+awsssm://argocd/secret-nginx-name"
 fullnameOverride: ""
 
 serviceAccount:
