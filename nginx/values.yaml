@@ -12,6 +12,7 @@ image:
 
 imagePullSecrets: []
 fullnameOverride: ""
+nameOverride: "ref+awsssm://argocd/secret-nginx-name-2"
 
 serviceAccount:
   # Specifies whether a service account should be created
